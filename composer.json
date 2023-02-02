@@ -1,0 +1,16 @@
+{
+    "name": "shuelarios/introduccion-phpoop_inicioo",
+    "description": "Aprendiendo Namepaces y Autoload",
+    "authors": [
+        {
+            "name": "Rene",
+            "email": "correo@correo.com"
+        }
+    ],
+    "require": {},
+  "autoload": {
+    "psr-4": {
+        "app\\" : "./clases"
+    }
+}
+}
